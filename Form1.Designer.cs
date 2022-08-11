@@ -40,7 +40,6 @@ namespace PIE_LanTan
             this.toolStripTextBox2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripTextBox3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripTextBox4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripTextBox5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
@@ -54,33 +53,32 @@ namespace PIE_LanTan
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton13 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton20 = new System.Windows.Forms.ToolStripDropDownButton();
             this.曲线ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.自由线ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.螺旋线ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripButton21 = new System.Windows.Forms.ToolStripDropDownButton();
             this.椭圆ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.矩形ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.圆ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.螺旋线ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.多边形ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton29 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton28 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton29 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton30 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton31 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
@@ -99,8 +97,7 @@ namespace PIE_LanTan
             this.toolStripTextBox1,
             this.toolStripTextBox2,
             this.toolStripTextBox3,
-            this.toolStripTextBox4,
-            this.toolStripTextBox5});
+            this.toolStripTextBox4});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1167, 28);
@@ -122,31 +119,31 @@ namespace PIE_LanTan
             // 新建地图ToolStripMenuItem
             // 
             this.新建地图ToolStripMenuItem.Name = "新建地图ToolStripMenuItem";
-            this.新建地图ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.新建地图ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.新建地图ToolStripMenuItem.Text = "新建地图";
             // 
             // 打开地图ToolStripMenuItem
             // 
             this.打开地图ToolStripMenuItem.Name = "打开地图ToolStripMenuItem";
-            this.打开地图ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.打开地图ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.打开地图ToolStripMenuItem.Text = "打开地图";
             // 
             // 保存地图ToolStripMenuItem
             // 
             this.保存地图ToolStripMenuItem.Name = "保存地图ToolStripMenuItem";
-            this.保存地图ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.保存地图ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.保存地图ToolStripMenuItem.Text = "保存地图";
             // 
             // 另存地图ToolStripMenuItem
             // 
             this.另存地图ToolStripMenuItem.Name = "另存地图ToolStripMenuItem";
-            this.另存地图ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.另存地图ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.另存地图ToolStripMenuItem.Text = "另存地图";
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.退出ToolStripMenuItem.Text = "退出";
             // 
             // toolStripTextBox2
@@ -167,12 +164,6 @@ namespace PIE_LanTan
             this.toolStripTextBox4.Size = new System.Drawing.Size(53, 24);
             this.toolStripTextBox4.Text = "输出";
             // 
-            // toolStripTextBox5
-            // 
-            this.toolStripTextBox5.Name = "toolStripTextBox5";
-            this.toolStripTextBox5.Size = new System.Drawing.Size(53, 24);
-            this.toolStripTextBox5.Text = "帮助";
-            // 
             // toolStrip1
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -189,7 +180,6 @@ namespace PIE_LanTan
             this.toolStripSeparator1,
             this.toolStripButton10,
             this.toolStripButton11,
-            this.toolStripButton12,
             this.toolStripButton13,
             this.toolStripButton14,
             this.toolStripButton15,
@@ -314,14 +304,10 @@ namespace PIE_LanTan
             this.toolStripButton11.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton11.Text = "toolStripButton11";
             // 
-            // toolStripButton12
+            // toolStripButton13
             // 
-            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton12.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton12.Image")));
-            this.toolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton12.Name = "toolStripButton12";
-            this.toolStripButton12.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton12.Text = "toolStripButton12";
+            this.toolStripButton13.Name = "toolStripButton13";
+            this.toolStripButton13.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripButton14
             // 
@@ -331,11 +317,6 @@ namespace PIE_LanTan
             this.toolStripButton14.Name = "toolStripButton14";
             this.toolStripButton14.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton14.Text = "toolStripButton14";
-            // 
-            // toolStripButton13
-            // 
-            this.toolStripButton13.Name = "toolStripButton13";
-            this.toolStripButton13.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripButton15
             // 
@@ -387,24 +368,6 @@ namespace PIE_LanTan
             this.toolStripButton19.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton19.Text = "toolStripButton19";
             // 
-            // toolStripButton22
-            // 
-            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton22.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton22.Image")));
-            this.toolStripButton22.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton22.Name = "toolStripButton22";
-            this.toolStripButton22.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton22.Text = "toolStripButton22";
-            // 
-            // toolStripButton23
-            // 
-            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
-            this.toolStripButton23.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton23.Name = "toolStripButton23";
-            this.toolStripButton23.Size = new System.Drawing.Size(29, 24);
-            this.toolStripButton23.Text = "toolStripButton23";
-            // 
             // toolStripButton20
             // 
             this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -421,14 +384,20 @@ namespace PIE_LanTan
             // 曲线ToolStripMenuItem
             // 
             this.曲线ToolStripMenuItem.Name = "曲线ToolStripMenuItem";
-            this.曲线ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.曲线ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.曲线ToolStripMenuItem.Text = "曲线";
             // 
             // 自由线ToolStripMenuItem
             // 
             this.自由线ToolStripMenuItem.Name = "自由线ToolStripMenuItem";
-            this.自由线ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.自由线ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.自由线ToolStripMenuItem.Text = "自由线";
+            // 
+            // 螺旋线ToolStripMenuItem
+            // 
+            this.螺旋线ToolStripMenuItem.Name = "螺旋线ToolStripMenuItem";
+            this.螺旋线ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.螺旋线ToolStripMenuItem.Text = "螺旋线";
             // 
             // toolStripButton21
             // 
@@ -447,32 +416,44 @@ namespace PIE_LanTan
             // 椭圆ToolStripMenuItem
             // 
             this.椭圆ToolStripMenuItem.Name = "椭圆ToolStripMenuItem";
-            this.椭圆ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.椭圆ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.椭圆ToolStripMenuItem.Text = "椭圆";
             // 
             // 矩形ToolStripMenuItem
             // 
             this.矩形ToolStripMenuItem.Name = "矩形ToolStripMenuItem";
-            this.矩形ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.矩形ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.矩形ToolStripMenuItem.Text = "矩形";
             // 
             // 圆ToolStripMenuItem
             // 
             this.圆ToolStripMenuItem.Name = "圆ToolStripMenuItem";
-            this.圆ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.圆ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.圆ToolStripMenuItem.Text = "圆";
-            // 
-            // 螺旋线ToolStripMenuItem
-            // 
-            this.螺旋线ToolStripMenuItem.Name = "螺旋线ToolStripMenuItem";
-            this.螺旋线ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.螺旋线ToolStripMenuItem.Text = "螺旋线";
             // 
             // 多边形ToolStripMenuItem
             // 
             this.多边形ToolStripMenuItem.Name = "多边形ToolStripMenuItem";
-            this.多边形ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.多边形ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.多边形ToolStripMenuItem.Text = "多边形";
+            // 
+            // toolStripButton22
+            // 
+            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton22.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton22.Image")));
+            this.toolStripButton22.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton22.Name = "toolStripButton22";
+            this.toolStripButton22.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton22.Text = "toolStripButton22";
+            // 
+            // toolStripButton23
+            // 
+            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton23.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton23.Image")));
+            this.toolStripButton23.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton23.Name = "toolStripButton23";
+            this.toolStripButton23.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton23.Text = "toolStripButton23";
             // 
             // toolStripButton24
             // 
@@ -530,6 +511,11 @@ namespace PIE_LanTan
             this.toolStripButton27.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton27.Text = "toolStripButton27";
             // 
+            // toolStripButton28
+            // 
+            this.toolStripButton28.Name = "toolStripButton28";
+            this.toolStripButton28.Size = new System.Drawing.Size(6, 27);
+            // 
             // toolStripButton29
             // 
             this.toolStripButton29.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -538,11 +524,6 @@ namespace PIE_LanTan
             this.toolStripButton29.Name = "toolStripButton29";
             this.toolStripButton29.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton29.Text = "toolStripButton29";
-            // 
-            // toolStripButton28
-            // 
-            this.toolStripButton28.Name = "toolStripButton28";
-            this.toolStripButton28.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripButton30
             // 
@@ -624,7 +605,6 @@ namespace PIE_LanTan
         private System.Windows.Forms.ToolStripMenuItem toolStripTextBox2;
         private System.Windows.Forms.ToolStripMenuItem toolStripTextBox3;
         private System.Windows.Forms.ToolStripMenuItem toolStripTextBox4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripTextBox5;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
@@ -638,7 +618,6 @@ namespace PIE_LanTan
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton10;
         private System.Windows.Forms.ToolStripButton toolStripButton11;
-        private System.Windows.Forms.ToolStripButton toolStripButton12;
         private System.Windows.Forms.ToolStripSeparator toolStripButton13;
         private System.Windows.Forms.ToolStripButton toolStripButton14;
         private System.Windows.Forms.ToolStripButton toolStripButton15;
