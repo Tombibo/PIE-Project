@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE6BD132-18FD-4C05-851C-F8DB0AD4FE43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PIE_LanTan</RootNamespace>
+    <AssemblyName>PIE-LanTan</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\碳储量\PIE SDK\PIESDK\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PIE.AdapterUI, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.AdapterUI.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.AdapterUICLR, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.AdapterUICLR.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Carto, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Carto.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.CommonAlgo, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.CommonAlgo.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.CommonMP, Version=6.3.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.CommonMP.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Configuration, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Controls, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.ControlsEx, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.ControlsEx.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.ControlsUI, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.ControlsUI.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.DataSource, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.DataSource.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Display, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Display.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Framework, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Geometry, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.BatchDealTools, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.BatchDealTools.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.CloudFlash, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.CloudFlash.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.FY4DataWrapper, Version=6.3.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.FY4DataWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.ImagePreProcess, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.ImagePreProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.ImageTransform, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.ImageTransform.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.L2ProjectionPlugin, Version=6.3.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.L2ProjectionPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.MapSubdivision, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.MapSubdivision.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.MonitorAnalysis, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.MonitorAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Plugin.UtilityTools, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Plugin.UtilityTools.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.SystemAlgo, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.SystemAlgo.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.SystemUI, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.SystemUI.dll</HintPath>
+    </Reference>
+    <Reference Include="PIE.Utility, Version=6.3.0.0, Culture=neutral, PublicKeyToken=ee1bc88606bd5383, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pie-development\Bin\PIE.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdaptiveFilter_Frost.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
