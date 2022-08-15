@@ -9,3 +9,11 @@ D:\不会跳舞的多米诺\workplace\PIE-Project-master\obj\x86\Debug\PIE-LanTa
 D:\不会跳舞的多米诺\workplace\PIE-Project-master\obj\x86\Debug\PIE-LanTan.exe
 D:\不会跳舞的多米诺\workplace\PIE-Project-master\obj\x86\Debug\PIE-LanTan.pdb
 D:\不会跳舞的多米诺\workplace\PIE-Project-master\obj\x86\Debug\PIE-LanTan.csproj.AssemblyReference.cache
+D:\不会跳舞的多米诺\workplace\PIE-Project-domino\obj\x86\Debug\PIE-LanTan.csproj.AssemblyReference.cache
+D:\不会跳舞的多米诺\workplace\PIE-Project-domino\obj\x86\Debug\PIE_LanTan.Form1.resources
+D:\不会跳舞的多米诺\workplace\PIE-Project-domino\obj\x86\Debug\PIE_LanTan.Properties.Resources.resources
+D:\不会跳舞的多米诺\workplace\PIE-Project-domino\obj\x86\Debug\PIE-LanTan.csproj.GenerateResource.cache
+D:\不会跳舞的多米诺\workplace\PIE-Project-domino\obj\x86\Debug\PIE-LanTan.csproj.CoreCompileInputs.cache
+D:\不会跳舞的多米诺\workplace\PIE-Project-domino\obj\x86\Debug\PIE-LanTan.csproj.CopyComplete
+D:\不会跳舞的多米诺\workplace\PIE-Project-domino\obj\x86\Debug\PIE-LanTan.exe
+D:\不会跳舞的多米诺\workplace\PIE-Project-domino\obj\x86\Debug\PIE-LanTan.pdb
